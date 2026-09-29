@@ -1,0 +1,6 @@
+Ultralytics YOLOv8.2.103 🚀 Python-3.9.20 torch-2.0.1+cu117 CUDA:0 (NVIDIA GeForce RTX 4090, 24564MiB)
+YOLOv8n summary (fused): 168 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+val: Scanning D:\Univ\paperwork\YOLO_crater\crater_yolo\DataSet\labels\test.cache... 279 images, 0 backgrounds, 0 corrupt: 100%|██████████| 279/279 [00:00<?, ?it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 18/18 [00:05<00:00,  3.22it/s]
+                   all        279      20831      0.778      0.714      0.813      0.503
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 5.5ms postprocess per image

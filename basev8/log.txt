@@ -1,0 +1,15 @@
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+    100/100      2.86G      1.401     0.8883      1.069        186        640: 100%|██████████| 279/279 [00:13<00:00, 20.01it/s]
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 18/18 [00:01<00:00, 13.23it/s]
+                   all        278      19961      0.762      0.705      0.799      0.489
+
+100 epochs completed in 0.446 hours.
+Optimizer stripped from D:\App\ComfyUI\ComfyUI-aki-v1.4\runs\detect\train12\weights\last.pt, 6.3MB
+Optimizer stripped from D:\App\ComfyUI\ComfyUI-aki-v1.4\runs\detect\train12\weights\best.pt, 6.3MB
+
+Validating D:\App\ComfyUI\ComfyUI-aki-v1.4\runs\detect\train12\weights\best.pt...
+Ultralytics YOLOv8.2.103 🚀 Python-3.9.20 torch-2.0.1+cu117 CUDA:0 (NVIDIA GeForce RTX 4090, 24564MiB)
+YOLOv8n summary (fused): 168 layers, 3,005,843 parameters, 0 gradients, 8.1 GFLOPs
+                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 18/18 [00:05<00:00,  3.06it/s]
+                   all        278      19961      0.781      0.706      0.811      0.496
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.1ms postprocess per image

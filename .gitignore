@@ -1,0 +1,21 @@
+# 数据集（体积过大，通过 DOI 获取，见 README）
+DataSet/
+
+# 压缩包（代码已解压入库）
+*.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 训练临时输出
+**/runs/
+wandb/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,12 @@
+# Ultralytics YOLO 🚀
+
+path: D:\Univ\paperwork\YOLO_crater\crater_yolo\DataSet # dataset root dir
+train: images/train/  # train images
+val: images/val/  # val images
+test: images/test/ # test images (optional)
+
+nc: 1
+
+# Classes
+names:
+  0: crater
